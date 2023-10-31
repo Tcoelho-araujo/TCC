@@ -1,17 +1,10 @@
-```diff
-# @@ TCC
+# TCC
 
+```diff
 + Projeto de TCC 
 + Aluno: Thiago Coelho
 + Faculdade: FGV-SP
 + Curso: Relações Internacionais
-
-
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
 
 
 @@ -Próximos passos:
