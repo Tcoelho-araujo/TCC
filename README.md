@@ -7,7 +7,7 @@
 + Curso: Relações Internacionais
 
 
-@@ -Próximos passos:
+@@ -Próximos passos: @@
 
 - UPLOAD base do excel no notebook para gitHub e Google Cloud
 - Pegar bases com dados necessários para controle
