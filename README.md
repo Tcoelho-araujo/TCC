@@ -5,9 +5,15 @@ Aluno: Thiago Coelho
 Faculdade: FGV-SP
 Curso: Relações Internacionais
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
-
-Próximos passos:
+-Próximos passos:
 
 UPLOAD base do excel no notebook para gitHub e Google Cloud
 Pegar bases com dados necessários para controle
