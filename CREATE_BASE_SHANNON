@@ -1,0 +1,23 @@
+with BASE_1 AS (
+select 
+  sum(individualcount) as individuos,
+  countrycode,
+  year,
+  species,
+ from `bigquery-public-data.gbif.occurrences` 
+where taxonrank         = 'SPECIES' 
+        AND YEAR        >= 1945 
+        AND countrycode is not null  
+        AND species     is not null
+        AND individualcount > 0
+group by countrycode, year, species
+)
+
+
+SELECT year, countrycode, sum(lpi_pi) as Shanon_index FROM (
+SELECT *, -1*log(individuos/total)*(individuos/total) as lpi_pi FROM (
+SELECT A.*, B.individuos as total, B.especies as distintas FROM BASE_1 A
+LEFT JOIN `tcc-base-403700.TCC_BASE.BASE_GERAL` B
+on A.year = B.year and A.countrycode = B.countrycode
+) C ) D
+GROUP BY year, countrycode
