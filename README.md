@@ -10,7 +10,9 @@
 ```
 This GitHub presents all data utilize for the construction of the datasets utilized in my thesis. To reproduce the results I strongly recommend you follow the following steps, in order to avoid paying for cloud use or excel complications: 
 - Download data in the folder Datatables -> Run the SQL code (Remeber to incorporate the date to you SQL program) -> Run R code (remember to rename the data source).
+
 or
+
 - Download Final_Dataset -> Run R code (remember to rename the data source).
 
   
