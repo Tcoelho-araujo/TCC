@@ -6,7 +6,7 @@
 + Faculdade: FGV-SP
 + School of international Relations
 ```
-Instructions: 
+- Instructions: 
 This GitHub presents all data utilize for the construction of the datasets utilized in my thesis. To reproduce the results I strongly recommend you follow this steps, in order to avoid paying for cloud use or excel complications: Download data in the folder Datatables -> Run the SQL code -> Run R code.  
 
 Abstract:
