@@ -2,8 +2,8 @@
 
 ```diff
 + Thesis
-+ Aluno: Thiago Coelho de Araujo
-+ Faculdade: FGV-SP
++ Thiago Coelho de Araujo
++ FGV-SP
 + School of international Relations
 
 - Instructions:
